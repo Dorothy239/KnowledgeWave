@@ -1,0 +1,139 @@
+section {
+    height: 130vh; /* Adjust as needed */
+    padding: 20px;
+  }
+
+  body {
+    padding-top: 70px; /* Adjust this value based on the height of your navbar */
+  }
+
+  #section1{
+    height: 100vh;
+  }
+
+#section4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
+    font-family: 'Arial', sans-serif;
+}
+.signup-container {
+    background: #fff;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+}
+.signup-container h2 {
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: #333;
+}
+.form-control {
+    border-radius: 30px;
+}
+.btn-primary {
+    background: #007bff;
+    border: none;
+    border-radius: 30px;
+    padding: 10px 20px;
+    font-size: 16px;
+    transition: background 0.3s;
+}
+.btn-primary:hover {
+    background: #0056b3;
+}
+
+h2{
+    font-size: xx-large;
+    text-align: center;
+    margin-bottom: 40px;
+    font-weight: bold;
+}  
+
+.review-section {
+    padding: 60px 0;
+    background-image: url(b.jpg);
+    background-size: cover; /* Ensures the image covers the entire section */
+    background-position: center; /* Centers the image */
+    height: 100vh; /* Sets the height to 100% of the viewport height */
+
+}
+
+.review-card {
+    background: #fff;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+}
+.review-card img {
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    margin-bottom: 20px;
+    
+}
+.review-card h5 {
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+.review-card p {
+    font-style: italic;
+    color: #555;
+}
+
+
+  /*#section1 {
+    background-image: url('');
+    background-size: cover; /* Ensures the image covers the entire section */
+    /*background-position: center; /* Centers the image */
+    /*height: 100vh; /* Sets the height to 100% of the viewport height */
+  /*}*/
+
+  .footer {
+    background-color: #343a40;
+    color: white;
+    padding: 40px 0;
+  }
+  .footer a {
+    color: #f8f9fa;
+  }
+  .footer a:hover {
+    color: #adb5bd;
+  }
+  .footer .social-icons a {
+    margin: 0 10px;
+    color: #f8f9fa;
+  }
+  .footer .social-icons a:hover {
+    color: #adb5bd;
+  }
+
+  .logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+    color: #007bff;
+}
+.logo img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+@media (max-width: 600px) {
+    .logo img {
+        width: 30px;
+        height: 30px;
+    }
+    .logo span {
+        font-size: 1.2em;
+    }
+}
