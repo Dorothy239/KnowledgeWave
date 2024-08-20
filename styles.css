@@ -2,6 +2,12 @@ section {
     height: 100vh;
     padding: 20px;
   }
+body{
+  padding-top: 25px;
+ }
+#section3, #section2{
+  height: fit-content;
+ }
 
 #section4{
     display: flex;
@@ -117,4 +123,7 @@ h2{
     .logo span {
         font-size: 1.2em;
     }
+    body{
+    padding-top: 100px;
+  }
 }
